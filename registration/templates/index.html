@@ -1,0 +1,16 @@
+{% extends 'base.html' %}
+
+{% block content %}
+
+{% if username %}
+    <div class="d-flex flex-wrap justify-content-center mt-5" style="max-width: 30vw;">
+        <h1 class="mb-3">Привет, {{ username }}!</h1>
+	    <p>Тут ты можешь <a href="logout">выйти</a>.</p>
+    </div>
+{% else %}
+    <div class="d-flex justify-content-center mt-5">
+        <h4>Привет, тебе нужно <a href="login">войти</a> на сайт или <a href="register">зарегистрироваться</a>!</h4>
+    </div>
+{% endif %}
+
+{% endblock %}
