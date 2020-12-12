@@ -1,5 +1,7 @@
 # Django_app_user_registration / Django приложение для регистрации пользователей
 
+Проект доступен на Heroku: https://intense-dawn-65401.herokuapp.com/
+
 Разворачиваем проект локально:
 
 1. Скачайте репозиторий
